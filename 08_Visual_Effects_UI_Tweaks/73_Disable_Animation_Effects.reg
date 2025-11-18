@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 73_Disable_Animation_Effects.reg
+; ปิดการใช้งาน Animation Effects
+; Included in Adjust for best performance.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

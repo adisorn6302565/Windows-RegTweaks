@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+; 11_Disable_Nagles_Algorithm.reg
+; ปิดการใช้งาน Nagle's Algorithm (TCPNoDelay)
+; Sets TcpAckFrequency and TcpNoDelay.
+; WARNING: Backup your registry before applying this .reg file. May affect network stability.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"TcpAckFrequency"=dword:00000001
+"TcpNoDelay"=dword:00000001

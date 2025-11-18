@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 60_Disable_Touch_Keyboard_and_Handwriting_Panel_Service.reg
+; ปิดการใช้งาน Touch Keyboard and Handwriting Panel Service
+; Sets Start to 4 (disabled).
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TabletInputService]
+"Start"=dword:00000004

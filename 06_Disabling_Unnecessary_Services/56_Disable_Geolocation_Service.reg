@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 56_Disable_Geolocation_Service.reg
+; ปิดการใช้งาน Geolocation Service
+; Sets Start to 4 (disabled).
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\lfsvc]
+"Start"=dword:00000004

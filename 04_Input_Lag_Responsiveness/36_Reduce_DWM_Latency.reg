@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 36_Reduce_DWM_Latency.reg
+; ลดความหน่วงของ DWM (Desktop Window Manager)
+; Sets EnableAeroPeek to 0.
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\DWM]
+"EnableAeroPeek"=dword:00000000

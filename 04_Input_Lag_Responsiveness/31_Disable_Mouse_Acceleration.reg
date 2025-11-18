@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+; 31_Disable_Mouse_Acceleration.reg
+; ปิดการใช้งาน Mouse Acceleration (Mouse Acceleration)
+; Sets MouseSpeed, MouseThreshold1, MouseThreshold2 to 0.
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"MouseSpeed"="0"
+"MouseThreshold1"="0"
+"MouseThreshold2"="0"

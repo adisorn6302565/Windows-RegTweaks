@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 89_Disable_Controlled_Folder_Access.reg
+; ปิดการใช้งาน Controlled Folder Access
+; Sets EnableControlledFolderAccess to 0.
+; WARNING: Backup your registry before applying this .reg file. Security risk.
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Windows Defender Exploit Guard\Controlled Folder Access]
+"EnableControlledFolderAccess"=dword:00000000

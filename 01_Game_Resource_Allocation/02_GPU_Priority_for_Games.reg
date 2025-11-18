@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 02_GPU_Priority_for_Games.reg
+; เพิ่มความสำคัญของ GPU ให้กับเกม (GPU Priority for Games)
+; This tweak is not a registry setting. GPU priority must be set via GPU control panel (e.g., NVIDIA Control Panel > Manage 3D settings).
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

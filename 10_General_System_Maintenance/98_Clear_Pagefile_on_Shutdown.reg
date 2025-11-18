@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 98_Clear_Pagefile_on_Shutdown.reg
+; ล้าง Pagefile ตอน Shutdown (Clear Pagefile on Shutdown)
+; Sets ClearPageFileAtShutdown to 1. May slow shutdown.
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"ClearPageFileAtShutdown"=dword:00000001

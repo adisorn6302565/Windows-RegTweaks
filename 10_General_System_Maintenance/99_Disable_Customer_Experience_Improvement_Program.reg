@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 99_Disable_Customer_Experience_Improvement_Program.reg
+; ปิดการใช้งาน Customer Experience Improvement Program
+; Sets CEIPEnable to 0.
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SQMClient\Windows]
+"CEIPEnable"=dword:00000000

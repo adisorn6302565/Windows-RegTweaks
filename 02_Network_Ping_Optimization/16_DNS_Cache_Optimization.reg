@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 16_DNS_Cache_Optimization.reg
+; เพิ่มประสิทธิภาพของ DNS Cache (DNS Cache Optimization)
+; Sets MaxCacheTtl to 86400 seconds.
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters]
+"MaxCacheTtl"=dword:00015180

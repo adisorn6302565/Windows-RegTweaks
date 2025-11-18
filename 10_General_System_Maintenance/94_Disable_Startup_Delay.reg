@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 94_Disable_Startup_Delay.reg
+; ปิดการใช้งาน Startup Delay
+; Set via services, not registry.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

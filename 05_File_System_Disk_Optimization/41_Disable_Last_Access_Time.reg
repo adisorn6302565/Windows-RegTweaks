@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 41_Disable_Last_Access_Time.reg
+; ปิดการอัปเดต Last Access Time (Disable Last Access Time)
+; Sets NtfsDisableLastAccessUpdate to 1.
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
+"NtfsDisableLastAccessUpdate"=dword:00000001

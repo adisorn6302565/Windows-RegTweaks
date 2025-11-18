@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 100_Adjust_Pagefile_Size.reg
+; ปรับแต่งขนาดของ Pagefile ให้เหมาะสม
+; Set via System Properties > Advanced > Performance > Advanced > Virtual Memory.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

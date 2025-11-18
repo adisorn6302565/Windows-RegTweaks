@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 71_Adjust_for_Best_Performance.reg
+; ปิดการใช้งาน Visual Effects ที่ไม่จำเป็นทั้งหมด (Adjust for best performance)
+; Sets VisualEffects to 2.
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"VisualEffects"=dword:00000002

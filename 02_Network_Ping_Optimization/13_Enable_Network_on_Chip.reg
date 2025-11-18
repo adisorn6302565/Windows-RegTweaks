@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 13_Enable_Network_on_Chip.reg
+; เปิดใช้งาน Network-on-Chip (NOC)
+; This is a hardware/BIOS feature, not a registry setting.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

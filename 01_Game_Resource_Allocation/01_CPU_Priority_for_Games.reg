@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; 01_CPU_Priority_for_Games.reg
+; เพิ่มความสำคัญของ CPU ให้กับเกม (CPU Priority for Games)
+; This tweak is not a registry setting. CPU priority must be set per process manually in Task Manager.
+; Right-click the game process in Task Manager > Set Priority > High or Above Normal.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

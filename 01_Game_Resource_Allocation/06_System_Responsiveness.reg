@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 06_System_Responsiveness.reg
+; ปรับปรุงการตอบสนองของระบบ (System Responsiveness)
+; Sets Win32PrioritySeparation to 38 for better responsiveness.
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\PriorityControl]
+"Win32PrioritySeparation"=dword:00000026

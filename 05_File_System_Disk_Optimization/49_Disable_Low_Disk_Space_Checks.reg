@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 49_Disable_Low_Disk_Space_Checks.reg
+; ปิดการตรวจสอบพื้นที่ดิสก์เหลือน้อย (Disable Low Disk Space Checks)
+; Sets NoLowDiskSpaceChecks to 1.
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoLowDiskSpaceChecks"=dword:00000001

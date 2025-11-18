@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 47_Cache_Manager_Performance.reg
+; ปรับปรุงประสิทธิภาพของ Cache Manager
+; Related to memory management, already covered.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

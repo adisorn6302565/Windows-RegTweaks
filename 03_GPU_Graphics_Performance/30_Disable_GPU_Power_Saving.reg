@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 30_Disable_GPU_Power_Saving.reg
+; ปิดการใช้งานฟีเจอร์ประหยัดพลังงานของ GPU (Disable GPU Power Saving)
+; Set via GPU driver, not registry.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

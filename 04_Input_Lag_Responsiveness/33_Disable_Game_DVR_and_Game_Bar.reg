@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+; 33_Disable_Game_DVR_and_Game_Bar.reg
+; ปิดการใช้งาน Game DVR และ Game Bar
+; Sets GameDVR_Enabled and AppCaptureEnabled to 0.
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_CURRENT_USER\System\GameConfigStore]
+"GameDVR_Enabled"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR]
+"AppCaptureEnabled"=dword:00000000

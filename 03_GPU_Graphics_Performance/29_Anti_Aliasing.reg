@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 29_Anti_Aliasing.reg
+; ปรับแต่งการตั้งค่า Anti-Aliasing
+; Set via GPU driver, not registry.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

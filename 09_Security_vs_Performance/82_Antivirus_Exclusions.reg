@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 82_Antivirus_Exclusions.reg
+; เพิ่มโฟลเดอร์เกมในข้อยกเว้นของ Antivirus (Antivirus Exclusions)
+; Set via antivirus software, not registry.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

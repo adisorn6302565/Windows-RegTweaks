@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 24_GPU_Power_Plan_Maximum_Performance.reg
+; ตั้งค่า Power Plan ของ GPU เป็น Maximum Performance
+; Set via GPU control panel, not registry.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

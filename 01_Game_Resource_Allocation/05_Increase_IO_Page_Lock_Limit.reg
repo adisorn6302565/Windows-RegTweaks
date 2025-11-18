@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 05_Increase_IO_Page_Lock_Limit.reg
+; เพิ่มขนาด I/O สำหรับเกม (Increase I/O Page Lock Limit for Games)
+; Sets IoPageLockLimit to 0 for unlimited.
+; WARNING: Backup your registry before applying this .reg file. May affect system stability.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"IoPageLockLimit"=dword:00000000

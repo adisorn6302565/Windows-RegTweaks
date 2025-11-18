@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 27_Enable_Resizable_BAR.reg
+; เปิดใช้งาน Resizable BAR (ถ้าฮาร์ดแวร์รองรับ)
+; BIOS setting, not registry.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

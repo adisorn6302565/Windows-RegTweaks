@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 23_DirectX_Performance_Tweaks.reg
+; ปรับปรุงประสิทธิภาพของ DirectX (DirectX Performance Tweaks)
+; No specific registry tweaks for DirectX performance.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

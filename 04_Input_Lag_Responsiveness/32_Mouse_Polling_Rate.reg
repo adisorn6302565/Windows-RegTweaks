@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 32_Mouse_Polling_Rate.reg
+; ปรับค่า Mouse Polling Rate
+; Hardware/driver setting, not registry.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

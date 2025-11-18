@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 61_Custom_Gaming_Power_Plan.reg
+; สร้าง Power Plan สำหรับเล่นเกมโดยเฉพาะ (Custom Gaming Power Plan)
+; Use powercfg command, not registry.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

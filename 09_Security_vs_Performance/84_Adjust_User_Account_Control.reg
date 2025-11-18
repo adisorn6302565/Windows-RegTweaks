@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 84_Adjust_User_Account_Control.reg
+; ปรับการตั้งค่า User Account Control (UAC)
+; Sets EnableLUA to 0. HIGH RISK.
+; WARNING: Backup your registry before applying this .reg file. Security risk.
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"EnableLUA"=dword:00000000

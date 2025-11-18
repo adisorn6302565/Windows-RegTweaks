@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 04_Disable_Network_Bandwidth_Throttling.reg
+; ปิดการจำกัดแบนด์วิดท์ของ Network (Disable Network Bandwidth Throttling)
+; Same as Network Throttling above.
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
+"NetworkThrottlingIndex"=dword:ffffffff

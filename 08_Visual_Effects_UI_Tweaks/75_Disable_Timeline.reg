@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 75_Disable_Timeline.reg
+; ปิดการใช้งาน Timeline
+; Set via Settings, not registry.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

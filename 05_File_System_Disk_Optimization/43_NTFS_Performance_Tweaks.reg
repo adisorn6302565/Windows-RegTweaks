@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 43_NTFS_Performance_Tweaks.reg
+; เพิ่มประสิทธิภาพของ NTFS (NTFS Performance Tweaks)
+; Sets NtfsDisable8dot3NameCreation to 1.
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
+"NtfsDisable8dot3NameCreation"=dword:00000001

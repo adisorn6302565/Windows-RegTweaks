@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 87_Adjust_Firewall_for_Games.reg
+; ปรับแต่งการตั้งค่า Firewall สำหรับเกม
+; Set via Firewall settings, not registry.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

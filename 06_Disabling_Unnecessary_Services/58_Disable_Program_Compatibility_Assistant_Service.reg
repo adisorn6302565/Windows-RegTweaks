@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 58_Disable_Program_Compatibility_Assistant_Service.reg
+; ปิดการใช้งาน Program Compatibility Assistant Service
+; Sets Start to 4 (disabled).
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PcaSvc]
+"Start"=dword:00000004

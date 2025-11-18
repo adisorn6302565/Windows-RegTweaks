@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 62_Minimum_Processor_State_100.reg
+; ตั้งค่า Minimum Processor State เป็น 100%
+; Set via power plan, not registry.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

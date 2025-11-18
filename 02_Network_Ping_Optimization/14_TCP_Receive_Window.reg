@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 14_TCP_Receive_Window.reg
+; ปรับขนาดของ TCP Receive Window (TCP Receive Window)
+; Sets TcpWindowSize to 64240.
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"TcpWindowSize"=dword:0000fa00

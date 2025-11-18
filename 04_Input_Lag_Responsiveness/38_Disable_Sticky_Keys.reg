@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 38_Disable_Sticky_Keys.reg
+; ปิดการใช้งาน Sticky Keys และ Filter Keys
+; Sets Flags to 506.
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_CURRENT_USER\Control Panel\Accessibility\StickyKeys]
+"Flags"="506"

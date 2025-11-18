@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 77_Menu_Show_Delay.reg
+; เพิ่มความเร็วในการแสดงเมนู (Menu Show Delay)
+; Sets MenuShowDelay to 0.
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"MenuShowDelay"="0"

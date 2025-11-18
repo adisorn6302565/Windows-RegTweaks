@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 17_Default_TTL.reg
+; ปรับค่า Time-to-Live (TTL) เริ่มต้น (Default TTL)
+; Sets DefaultTTL to 64.
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"DefaultTTL"=dword:00000040

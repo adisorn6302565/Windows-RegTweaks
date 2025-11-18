@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 26_Flip_Queue_Size.reg
+; ปรับค่า Flip Queue Size
+; Sets FlipQueueSize to 1.
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Dwm_Core]
+"FlipQueueSize"=dword:00000001

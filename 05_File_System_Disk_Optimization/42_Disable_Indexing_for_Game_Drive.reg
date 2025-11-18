@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 42_Disable_Indexing_for_Game_Drive.reg
+; ปิดการใช้งาน Indexing สำหรับไดรฟ์ที่ติดตั้งเกม (Disable Indexing for Game Drive)
+; Set per drive properties, not registry.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

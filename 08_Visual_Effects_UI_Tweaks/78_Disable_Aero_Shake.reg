@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 78_Disable_Aero_Shake.reg
+; ปิดการใช้งาน Aero Shake
+; Sets DisallowShaking to 1.
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"DisallowShaking"=dword:00000001

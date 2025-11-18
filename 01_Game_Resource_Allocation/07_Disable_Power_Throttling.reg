@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 07_Disable_Power_Throttling.reg
+; ปิดการทำงานของ Power Throttling (Disable Power Throttling)
+; Sets PowerThrottlingOff to 1.
+; WARNING: Backup your registry before applying this .reg file. May increase power consumption.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerThrottling]
+"PowerThrottlingOff"=dword:00000001

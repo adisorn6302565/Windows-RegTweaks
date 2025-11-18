@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 92_Disable_Error_Reporting.reg
+; ปิดการใช้งาน Error Reporting
+; Sets Disabled to 1.
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Windows Error Reporting]
+"Disabled"=dword:00000001

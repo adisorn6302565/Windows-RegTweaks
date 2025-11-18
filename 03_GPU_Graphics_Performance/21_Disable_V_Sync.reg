@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 21_Disable_V_Sync.reg
+; ปิดการใช้งาน V-Sync สำหรับบางเกม (Disable V-Sync)
+; This is per-game or driver setting, not registry.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

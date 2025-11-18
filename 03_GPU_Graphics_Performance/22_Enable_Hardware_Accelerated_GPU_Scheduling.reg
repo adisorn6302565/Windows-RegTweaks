@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 22_Enable_Hardware_Accelerated_GPU_Scheduling.reg
+; เปิดใช้งาน Hardware-Accelerated GPU Scheduling
+; Sets HwSchMode to 2.
+; WARNING: Backup your registry before applying this .reg file. Requires compatible hardware.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers]
+"HwSchMode"=dword:00000002

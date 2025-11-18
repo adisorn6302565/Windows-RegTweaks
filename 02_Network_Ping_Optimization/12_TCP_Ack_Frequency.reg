@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 12_TCP_Ack_Frequency.reg
+; ปรับค่า TCP Ack Frequency (TCPAckFrequency)
+; Sets TcpAckFrequency to 1.
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"TcpAckFrequency"=dword:00000001

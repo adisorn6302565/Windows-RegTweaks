@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 25_Disable_Shader_Cache.reg
+; ปิดการใช้งาน Shader Cache สำหรับบางไดรเวอร์ (Disable Shader Cache)
+; Driver dependent, not registry.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 48_Disable_File_Compression.reg
+; ปิดการบีบอัดไฟล์และโฟลเดอร์ที่ไม่จำเป็น (Disable File Compression)
+; Set per file/folder, not registry.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

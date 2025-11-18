@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 39_System_Timer_Resolution.reg
+; ปรับค่า Timer Resolution ของระบบ
+; Use external tool like TimerResolution, not registry.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

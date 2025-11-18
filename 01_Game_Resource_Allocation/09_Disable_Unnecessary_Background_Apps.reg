@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 09_Disable_Unnecessary_Background_Apps.reg
+; ปิดการใช้งาน Background App ที่ไม่จำเป็น (Disable Unnecessary Background Apps)
+; This tweak is not a registry setting. Disable via Task Manager > Startup or Settings > Apps > Startup.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

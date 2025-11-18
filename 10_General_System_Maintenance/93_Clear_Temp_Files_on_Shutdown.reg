@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 93_Clear_Temp_Files_on_Shutdown.reg
+; ล้างไฟล์ Temp อัตโนมัติเมื่อปิดเครื่อง (Clear Temp Files on Shutdown)
+; Sets StateFlags0001 to 2.
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VolumeCaches\Temporary Files]
+"StateFlags0001"=dword:00000002

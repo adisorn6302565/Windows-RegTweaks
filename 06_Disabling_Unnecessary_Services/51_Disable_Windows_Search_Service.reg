@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 51_Disable_Windows_Search_Service.reg
+; ปิดการใช้งาน Windows Search Service
+; Sets Start to 4 (disabled).
+; WARNING: Backup your registry before applying this .reg file. May affect search functionality.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WSearch]
+"Start"=dword:00000004

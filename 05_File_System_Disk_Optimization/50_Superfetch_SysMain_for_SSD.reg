@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+; 50_Superfetch_SysMain_for_SSD.reg
+; ปรับแต่งการตั้งค่า Superfetch/SysMain สำหรับ SSD
+; Disables Prefetcher and Superfetch.
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters]
+"EnablePrefetcher"=dword:00000000
+"EnableSuperfetch"=dword:00000000

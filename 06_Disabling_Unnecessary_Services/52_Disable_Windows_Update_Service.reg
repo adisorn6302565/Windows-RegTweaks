@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 52_Disable_Windows_Update_Service.reg
+; ปิดการใช้งาน Windows Update Service (ชั่วคราวขณะเล่นเกม)
+; Sets Start to 4 (disabled). Re-enable after gaming.
+; WARNING: Backup your registry before applying this .reg file. Disables updates, security risk.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wuauserv]
+"Start"=dword:00000004

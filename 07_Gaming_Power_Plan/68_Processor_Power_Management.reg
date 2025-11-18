@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 68_Processor_Power_Management.reg
+; ปรับการตั้งค่า Processor Power Management
+; Set via power plan, not registry.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

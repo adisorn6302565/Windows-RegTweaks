@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 74_Disable_Action_Center_and_Notifications.reg
+; ปิดการใช้งาน Action Center และ Notifications (Focus Assist)
+; Set via Settings, not registry.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

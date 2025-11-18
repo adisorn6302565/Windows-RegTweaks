@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 95_Disable_Auto_Reboot_after_Windows_Update.reg
+; ปิดการใช้งาน Auto-Reboot after Windows Update
+; Set via Settings, not registry.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

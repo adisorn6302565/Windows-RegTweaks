@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 08_Large_System_Cache.reg
+; จัดสรรหน่วยความจำสำหรับโปรแกรม (Large System Cache)
+; Sets LargeSystemCache to 1.
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"LargeSystemCache"=dword:00000001

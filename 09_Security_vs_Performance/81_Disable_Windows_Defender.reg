@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 81_Disable_Windows_Defender.reg
+; ปิดการใช้งาน Windows Defender (ชั่วคราวและด้วยความระมัดระวัง)
+; Sets DisableAntiSpyware to 1. HIGH RISK: Re-enable after gaming.
+; WARNING: Backup your registry before applying this .reg file. Major security risk.
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender]
+"DisableAntiSpyware"=dword:00000001

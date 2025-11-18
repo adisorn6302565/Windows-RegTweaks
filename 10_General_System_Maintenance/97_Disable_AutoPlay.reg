@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 97_Disable_AutoPlay.reg
+; ปิดการใช้งาน AutoPlay
+; Sets DisableAutoplay to 1.
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\AutoplayHandlers]
+"DisableAutoplay"=dword:00000001

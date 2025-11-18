@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 79_Disable_Aero_Peek.reg
+; ปิดการใช้งาน Aero Peek
+; Sets EnableAeroPeek to 0.
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\DWM]
+"EnableAeroPeek"=dword:00000000

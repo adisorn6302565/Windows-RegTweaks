@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 20_Disable_Windows_Auto_Tuning.reg
+; ปิดการใช้งาน Windows Auto-Tuning
+; Use netsh int tcp set global autotuninglevel=disabled, not registry.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

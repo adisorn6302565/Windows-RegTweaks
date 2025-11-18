@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 35_Disable_Fullscreen_Optimizations.reg
+; ปิดการใช้งาน Fullscreen Optimizations
+; Set per exe via properties, not registry.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

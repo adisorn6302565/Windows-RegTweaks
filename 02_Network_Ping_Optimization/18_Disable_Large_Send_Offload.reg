@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 18_Disable_Large_Send_Offload.reg
+; ปิดการใช้งาน Large Send Offload (LSO)
+; This is set via network adapter properties, not registry.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

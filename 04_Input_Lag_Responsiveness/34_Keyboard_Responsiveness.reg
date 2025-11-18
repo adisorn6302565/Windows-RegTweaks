@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 34_Keyboard_Responsiveness.reg
+; ปรับปรุงการตอบสนองของคีย์บอร์ด (Keyboard Responsiveness)
+; Sets KeyboardDelay to 0.
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_CURRENT_USER\Control Panel\Keyboard]
+"KeyboardDelay"="0"

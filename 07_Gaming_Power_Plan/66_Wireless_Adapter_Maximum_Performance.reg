@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 66_Wireless_Adapter_Maximum_Performance.reg
+; ตั้งค่า Wireless Adapter เป็น Maximum Performance
+; Set via power plan, not registry.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

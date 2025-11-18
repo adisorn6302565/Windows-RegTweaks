@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 57_Disable_Remote_Registry_Service.reg
+; ปิดการใช้งาน Remote Registry Service
+; Sets Start to 4 (disabled).
+; WARNING: Backup your registry before applying this .reg file. Security risk if disabled.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RemoteRegistry]
+"Start"=dword:00000004

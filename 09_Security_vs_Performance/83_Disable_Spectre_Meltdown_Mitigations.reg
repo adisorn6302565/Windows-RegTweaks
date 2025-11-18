@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+; 83_Disable_Spectre_Meltdown_Mitigations.reg
+; ปิดการใช้งาน Spectre and Meltdown Mitigations (มีความเสี่ยง)
+; Sets FeatureSettingsOverride and FeatureSettingsOverrideMask to 3. HIGH RISK.
+; WARNING: Backup your registry before applying this .reg file. Security vulnerability.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"FeatureSettingsOverride"=dword:00000003
+"FeatureSettingsOverrideMask"=dword:00000003

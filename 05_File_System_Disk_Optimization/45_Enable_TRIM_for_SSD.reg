@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 45_Enable_TRIM_for_SSD.reg
+; เปิดใช้งาน TRIM สำหรับ SSD (Enable TRIM for SSD)
+; TRIM is enabled by default on SSDs, no registry tweak.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

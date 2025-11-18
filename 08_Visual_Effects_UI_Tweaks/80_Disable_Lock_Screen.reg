@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 80_Disable_Lock_Screen.reg
+; ปิดการใช้งาน Lock Screen
+; Sets NoLockScreen to 1.
+; WARNING: Backup your registry before applying this .reg file. Security risk.
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Personalization]
+"NoLockScreen"=dword:00000001

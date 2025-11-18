@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 96_WaitToKillServiceTimeout.reg
+; เพิ่มความเร็วในการ Shutdown (WaitToKillServiceTimeout)
+; Sets WaitToKillServiceTimeout to 2000.
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control]
+"WaitToKillServiceTimeout"="2000"

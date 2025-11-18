@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 72_Disable_Transparency_Effects.reg
+; ปิดการใช้งาน Transparency Effects
+; Sets EnableTransparency to 0.
+; WARNING: Backup your registry before applying this .reg file.
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize]
+"EnableTransparency"=dword:00000000

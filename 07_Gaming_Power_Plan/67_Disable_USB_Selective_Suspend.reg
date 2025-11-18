@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 67_Disable_USB_Selective_Suspend.reg
+; ปิดการใช้งาน USB Selective Suspend
+; Set via power plan, not registry.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; 64_Disable_PCI_Express_Link_State_Power_Management.reg
+; ปิดการใช้งาน PCI Express Link State Power Management
+; Set via power plan, not registry.
+; WARNING: Backup your registry before applying any .reg files. This file does not modify the registry.

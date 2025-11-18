@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; 03_Network_Throttling_for_Games.reg
+; จัดลำดับความสำคัญของ Network สำหรับเกม (Network Throttling for Games)
+; Sets NetworkThrottlingIndex to maximum to prioritize network for games.
+; WARNING: Backup your registry before applying this .reg file. May affect network performance.
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
+"NetworkThrottlingIndex"=dword:ffffffff
